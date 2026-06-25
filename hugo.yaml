@@ -21,7 +21,7 @@ params:
   # author: ["Me", "You"] # multiple authors
   images: ["<link or path of image for opengraph, twitter-cards>"]
   DateFormat: "January 2, 2006"
-  defaultTheme: auto # dark, light
+  defaultTheme: dark # dark, light
   disableThemeToggle: false
 
   ShowReadingTime: true
@@ -37,8 +37,11 @@ params:
   comments: false
   hidemeta: false
   hideSummary: false
-  showtoc: false
-  tocopen: false
+
+
+  #目录的开关 
+  showtoc: true
+  tocopen: true
 
   assets:
     # disableHLJS: true # to disable highlight.js
@@ -73,10 +76,10 @@ params:
   homeInfoParams:
     Title: "Hi 淇淇 \U0001F44B"
     Content: |
-      A clean, fast, and responsive Hugo theme built for a polished reading experience. [Read more..](/about/)
-      - Lightweight by design, with a modern layout that keeps your content front and center.
-      - Explore the [Docs (Wiki)](https://github.com/adityatelange/hugo-PaperMod/wiki/) to learn more about features and configuration.
-      - I use [Fedora](https://fedoraproject.org/)
+      一个简单的博客，给自己折腾过的东西留个纪念
+      - 我会记录一些我使用过的VPS测评,测评均为个人实测仅供参考
+      - 如果你也喜欢Linux，那么可以交个朋友吗~
+      - 有任何问题的话，可以通过下面的方式联系到我
 
 
   socialIcons:
@@ -97,7 +100,7 @@ params:
 
   cover:
     hidden: false # hide everywhere but not in structured data
-    hiddenInList: false # hide on list pages and home
+    hiddenInList: true # hide on list pages and home
     hiddenInSingle: false # hide on single page
 
   editPost:
@@ -136,7 +139,7 @@ menu:
       weight: 30
 
     - identifier: example
-      name: example.org
+      name: 神秘空洞
       url: https://example.org
       weight: 40
 # Read: https://github.com/adityatelange/hugo-PaperMod/wiki/FAQs#using-hugos-syntax-highlighter-chroma
@@ -146,6 +149,11 @@ markup:
     noClasses: false
     # anchorLineNos: true
     # codeFences: true
+    
+    # 自动检测语言
     # guessSyntax: true
-    # lineNos: true
-    # style: monokai
+    
+    # 显示行号
+    lineNos: true
+    # 代码块高亮样式
+    style: monokai
