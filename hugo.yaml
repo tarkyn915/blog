@@ -3,6 +3,13 @@ locale: en-us
 title: qq's blog
 theme: ["PaperMod"]
 
+# 搜索用的
+outputs:
+  home:
+    - HTML
+    - RSS
+    - JSON
+
 enableRobotsTXT: true
 buildDrafts: false
 buildFuture: false
