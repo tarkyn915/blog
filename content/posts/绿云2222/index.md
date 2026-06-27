@@ -1,5 +1,5 @@
 ---
-title: 绿云JP2222测评
+title: 绿云JP2222 测评
 date: 2026-06-25
 pinned: false
 description: 绿云JP2222翻倍款
