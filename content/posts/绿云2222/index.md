@@ -3,7 +3,7 @@ title: 绿云JP2222 测评
 date: 2026-06-25
 pinned: false
 description: 绿云JP2222翻倍款
-tags: [绿云,JP,VPS]
+tags: [绿云,JP,VPS测评]
 category: VPS测评
 draft: false
 cover:

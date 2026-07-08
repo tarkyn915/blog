@@ -3,7 +3,7 @@ title: Zouter JP BGP Global - Standard 测评
 date: 2026-06-26T02:42:49+08:00
 pinned: false
 description: Zouter JP
-tags: [Zouter,JP,VPS]
+tags: [Zouter,JP,VPS测评]
 category: VPS测评
 draft: false
 cover:

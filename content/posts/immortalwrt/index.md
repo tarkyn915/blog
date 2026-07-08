@@ -17,7 +17,7 @@ cover:
 
 默认有网页管理，只需要安装所需的软件就可以
 
-> 如果是PVE需要先创建实例，然后用脚本添加镜像，上传的时候记得复制路径
+> 如果是PVE需要先创建实例，然后用命令添加硬盘，上传的时候记得复制路径
 
 ```
 qm importdisk xxx机器ID /var/lib/vz/template/iso/openwrt.img local-lvm

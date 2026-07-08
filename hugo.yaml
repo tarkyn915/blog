@@ -2,6 +2,9 @@ baseURL: https://blog.tjq.one/
 locale: en-us
 title: qq's blog
 theme: ["PaperMod"]
+# 主页posts数量
+pagination:
+  pagerSize: 5
 
 # 搜索用的
 outputs:
@@ -82,12 +85,11 @@ params:
 
   # home-info mode
   homeInfoParams:
-    Title: "Hi 淇淇 \U0001F44B"
+    Title: "Hi 淇 \U0001F44B"
     Content: |
-      一个简单的博客，给自己折腾过的东西留个纪念
-      - 我会记录一些我使用过的VPS测评,测评均为个人实测仅供参考
-      - 如果你也喜欢Linux，那么可以交个朋友
-      - 有任何问题的话，可以通过下面的方式联系到我
+      Just a simple blog for documenting stuff I‘ve messed around with, and a free notebook for myself.
+      - 我不是计算机相关专业，但我非常喜欢Linux，欢迎一起交流学习
+      - 👇 If u have any question  
 
 
   socialIcons:
